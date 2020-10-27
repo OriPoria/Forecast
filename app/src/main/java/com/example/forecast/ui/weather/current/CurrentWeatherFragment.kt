@@ -34,6 +34,8 @@ class CurrentWeatherFragment : Fragment() {
         // TODO: Use the ViewModel
         val apiService = ApiWeatherApiService()
 
+        
+
         GlobalScope.launch(Dispatchers.Main) {
             try {
                 var currentWeatherResponse = apiService.getCurrentWeather("London").await()

@@ -1,5 +1,8 @@
-package com.example.forecast.data.response
+package com.example.forecast.network.response
 
+import com.example.forecast.data.db.entity.CurrentWeatherEntry
+import com.example.forecast.data.db.entity.Location
+import com.example.forecast.data.db.entity.Request
 import com.google.gson.annotations.SerializedName
 
 data class CurrentWeatherResponse(
